@@ -5,7 +5,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 
 # DB
-# from langchain_chroma import Chroma
 from langchain_community.vectorstores import Chroma
 
 import os
